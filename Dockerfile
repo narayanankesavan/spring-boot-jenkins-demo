@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM alpine-oraclejdk8:slim
 #Copy all the files to a docker container to perform a build inside it
 ADD .mvn .mvn
 ADD src src
